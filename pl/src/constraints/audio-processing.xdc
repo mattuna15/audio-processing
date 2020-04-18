@@ -21,6 +21,7 @@ set_property IOSTANDARD LVCMOS33 [get_ports adau1761_dac_sdata_0]
 
 set_property PACKAGE_PIN AA6 [get_ports adau1761_bclk_0]
 set_property IOSTANDARD LVCMOS33 [get_ports adau1761_bclk_0]
+set_property CLOCK_DEDICATED_ROUTE FALSE [get_nets {adau1761_bclk_0_IBUF}]
 
 set_property PACKAGE_PIN Y6 [get_ports adau1761_lrclk_0]
 set_property IOSTANDARD LVCMOS33 [get_ports adau1761_lrclk_0]
